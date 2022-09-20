@@ -4,7 +4,6 @@
 *::after {
   box-sizing: border-box;
 }
-
 body {
   font-family: "Poppins", sans-serif;
   color: #f5f6f7;
@@ -13,7 +12,6 @@ body {
   line-height: 1.4;
   margin: 0;
 }
-
 body::before {
   content: "";
   top: 0;
@@ -33,17 +31,14 @@ body::before {
   position: fixed;
   z-index: -1;
 }
-
 header {
   padding: 0 0.625rem;
   margin-bottom: 1.875rem;
 }
-
 div {
   display: block;
   min-width: 300px;
 }
-
 form {
   padding: 2.5rem;
   background: #292947;
@@ -55,14 +50,12 @@ form {
     padding: 2.5rem;
   }
 }
-
 label {
   display: flex;
   align-items: center;
   font-size: 1.125rem;
   margin-bottom: 0.5rem;
 }
-
 h1,
 p {
   margin-top: 0;
